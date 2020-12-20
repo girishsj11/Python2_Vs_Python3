@@ -37,3 +37,10 @@
    | Library | Many recent developers are creating libraries which you can only use with Python 3. | Many older libraries created for Python 2 is not forward-compatible. |
    
 4. Forum to learn more about Python : https://help.semmle.com/wiki/collector/pages.action?key=PYTHON 
+
+### Differece between List & Tuples 
+
+- List is mutable object & tuples are immutable objects
+- We can only use tuples can be a set of keys in a dictionary , as because tuples are immutable & only immutable objects are hashed in dictionary.
+- Tuples are defined by enclosing the elements in parentheses (()) , lists are enclosed with square brackets([]).
+- Sometimes you don’t want data to be modified. If the values in the collection are meant to remain constant for the life of the program, using a tuple instead of a list guards against accidental modification.
