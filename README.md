@@ -44,3 +44,45 @@
 - We can only use tuples can be a set of keys in a dictionary , as because tuples are immutable & only immutable objects are hashed in dictionary.
 - Tuples are defined by enclosing the elements in parentheses (()) , lists are enclosed with square brackets([]).
 - Sometimes you don’t want data to be modified. If the values in the collection are meant to remain constant for the life of the program, using a tuple instead of a list guards against accidental modification.
+- There is slight difference in indexing speed of list and tuple because tuples uses fewer pointers when indexing than that of list. Becuase of fewer pointers, acess mechanism is generally faster in tuples than lists.
+  - List & Tuple Speed Comparison
+  
+  > Example 1
+         
+         #tuple creation
+         from datetime import datetime
+         start_time = datetime.now()
+         t = (x for x in range(10000))
+         end_time = datetime.now()
+         print('Duration: {}'.format(end_time - start_time))
+         
+         
+         #list creation
+         from datetime import datetime
+         start_time = datetime.now()
+         l = [x for x in range(10000)]
+         end_time = datetime.now()
+         print('Duration: {}'.format(end_time - start_time))
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
