@@ -45,9 +45,10 @@
 - Tuples are defined by enclosing the elements in parentheses (()) , lists are enclosed with square brackets([]).
 - Sometimes you don’t want data to be modified. If the values in the collection are meant to remain constant for the life of the program, using a tuple instead of a list guards against accidental modification.
 - There is slight difference in indexing speed of list and tuple because tuples uses fewer pointers when indexing than that of list. Becuase of fewer pointers, acess mechanism is generally faster in tuples than lists.
+
   - List & Tuple Speed Comparison
   
-  > Example 1
+    > Example 1
          
          #tuple creation
          from datetime import datetime
@@ -64,7 +65,7 @@
          end_time = datetime.now()
          print('Duration: {}'.format(end_time - start_time))
   
-  
+- watch out the link : https://stackoverflow.com/questions/3340539/why-is-tuple-faster-than-list-in-python 
   
   
   
