@@ -36,7 +36,7 @@
    | Leak of variables | The value of variables never changes. | The value of the global variable will change while using it inside for-loop. |
    | Library | Many recent developers are creating libraries which you can only use with Python 3. | Many older libraries created for Python 2 is not forward-compatible. |
    
-4. Forum to learn more about Python : https://help.semmle.com/wiki/collector/pages.action?key=PYTHON 
+
 
 ### Differece between List & Tuples 
 
