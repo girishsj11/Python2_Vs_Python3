@@ -66,6 +66,48 @@
          print('Duration: {}'.format(end_time - start_time))
   
 - watch out the link : https://stackoverflow.com/questions/3340539/why-is-tuple-faster-than-list-in-python 
+
+### List of Python Script File-Extensions
+
+   Python scripts may have one of several file extensions. Each file extension has a special meaning and purpose.
+
+1. *.py - Regular scripts
+
+2. *.py3 - (rarely used) Python3 script; Python3 scripts usually end with "*.py" not "*.py3"
+
+3. *.pyc - compiled script (Bytecode)
+
+4. *.pyo - optimized pyc bytecode file (As of Python3.5, Python will only use pyc rather than pyo and pyc)
+
+5. *.pyw - Python script for Windows that is executed with pythonw.exe
+
+6. *.pyx - Cython src to be converted to C/C++
+
+7. *.pyd - Python script made as a Windows DLL
+
+8. *.pxd - Cython script which is equivalent to a C/C++ header
+
+9. *.pyi - MyPy stub
+
+10. *.pyi - Stub file (PEP 484)
+
+11. *.pyz - Python script archive (PEP 441); this is a script containing compressed Python scripts (ZIP) in binary form after the standard Python script header
+
+12. *.pywz - Python script archive for MS-Windows (PEP 441); this is a script containing compressed Python scripts (ZIP) in binary form after the standard Python script header
+
+13. *.py[cod] - wildcard notation in ".gitignore" that means the file may be "*.pyc", "*.pyo", or "*.pyd"
+
+14. *.rpy - RPython script or a Python script containing application or framework-specific features
+
+15. *.pyde - Python script used by Processing (https://processing.org/)
+
+16. *.pyp - Py4D Python Plugin
+
+17. *.pyt - Python declaration file
+
+18. *.xpy - Unknown
+
+19. *.ipynb - Jupyter Notebook file
   
   
   
