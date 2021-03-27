@@ -73,7 +73,7 @@
 
 1. *.py - Regular scripts
 
-2. *.py3 - (rarely used) Python3 script; Python3 scripts usually end with "*.py" not "*.py3"
+2. \*.py3 - (rarely used) Python3 script; Python3 scripts usually end with "\*.py" not "\*.py3"
 
 3. *.pyc - compiled script (Bytecode)
 
@@ -95,7 +95,7 @@
 
 12. *.pywz - Python script archive for MS-Windows (PEP 441); this is a script containing compressed Python scripts (ZIP) in binary form after the standard Python script header
 
-13. *.py[cod] - wildcard notation in ".gitignore" that means the file may be "*.pyc", "*.pyo", or "*.pyd"
+13. \*.py[cod] - wildcard notation in ".gitignore" that means the file may be "\*.pyc", "\*.pyo", or "\*.pyd"
 
 14. *.rpy - RPython script or a Python script containing application or framework-specific features
 
